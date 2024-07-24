@@ -1,0 +1,81 @@
+h1{
+    background-color: rgb(15, 15, 14);
+    color: rgb(246, 244, 244);
+    text-align: center;
+    font-family:calc();
+    font-size: 2.5rem;
+    border-radius: 40px;
+    box-shadow: 6px 6px 6px black;
+    padding: 3px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+
+a:visited{
+    color: black;
+}
+a:hover{
+    background-color: aqua;
+    text-decoration: none;
+}
+a.link{
+    color: blue;
+}
+a:active{
+    background-color: blueviolet;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    margin: 30px;
+}
+
+iframe{
+    width: 700px;
+    height: 500px;
+    margin-bottom: 30px;
+}
+
+div{
+    background-color: rgb(43, 41, 40);
+   width: 1300px;
+   margin: 20px;
+}
+
+p{
+    display: inline-block;
+    width: 800px;
+    overflow:auto;
+    text-align: justify;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    
+}
+
+p::first-letter{
+    color: blueviolet;
+    font-size: 2REM;
+}
+p::first-line{
+    color: rgb(216, 11, 11);
+}
+
+p::selection{
+    background-color: rgb(192, 236, 111);
+    color: rgb(3, 14, 23);
+}
+
+h2{
+    color:brown;
+    margin: 10px;
+}
+
+li{
+    font-size: 1.2rem;
+}
